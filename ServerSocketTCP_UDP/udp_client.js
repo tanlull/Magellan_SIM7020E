@@ -16,7 +16,7 @@ client.on('message', (msg, info) => {
 })
 
 //sending msg
-client.send(data, conf.port, conf.host, error => {
+client.send(data, conf.port, conf.serverHost, error => {
     if (error) {
         console.log(error)
         client.close()
