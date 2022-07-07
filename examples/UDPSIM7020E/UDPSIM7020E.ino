@@ -11,9 +11,9 @@
 */
 
 #include "AIS_SIM7020E_API.h"
-String address      = "1.179.246.5";    // Your Server IP
+String address      = "totws.com";    // Your Server IP
 String serverPort   = "21000";    // Your Server Port
-String payload = "HelloWorld!";
+String payload = "UDP HelloWorld!";
 String data_return;
 
 const long interval = 20000;  //millisecond 
