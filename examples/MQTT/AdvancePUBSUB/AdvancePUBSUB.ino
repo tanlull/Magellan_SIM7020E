@@ -10,10 +10,10 @@
     If you have any questions, please see more details at https://www.facebook.com/AISDEVIO
 */
 #include "AIS_SIM7020E_API.h"
-String address    = "";               //Your IPaddress or mqtt server url
-String serverPort = "";               //Your server port
-String clientID   = "";               //Your client id < 120 characters
-String topic      = "";               //Your topic     < 128 characters
+String address    = "broker.hivemq.com";               //Your IPaddress or mqtt server url
+String serverPort = "1883";               //Your server port
+String clientID   = "tan_1234";               //Your client id < 120 characters
+String topic      = "ais_nbiot";               //Your topic     < 128 characters
 String payload    = "HelloWorld!";    //Your payload   < 500 characters
 String username   = "";               //username for mqtt server, username <= 100 characters
 String password   = "";               //password for mqtt server, password <= 100 characters 
