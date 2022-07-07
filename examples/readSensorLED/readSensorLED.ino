@@ -15,7 +15,7 @@
   
   If you have any questions, please see more details at https://www.facebook.com/AISDEVIO
 */
-#pragma once
+
 #include "ClosedCube_HDC1080.h"
 #include "Magellan_SIM7020E.h"
 
