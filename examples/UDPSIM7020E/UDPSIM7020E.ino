@@ -11,8 +11,8 @@
 */
 
 #include "AIS_SIM7020E_API.h"
-String address      = "";    // Your Server IP
-String serverPort   = "";    // Your Server Port
+String address      = "1.179.246.5";    // Your Server IP
+String serverPort   = "21000";    // Your Server Port
 String payload = "HelloWorld!";
 String data_return;
 

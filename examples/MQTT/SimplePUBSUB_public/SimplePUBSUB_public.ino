@@ -10,13 +10,13 @@
     If you have any questions, please see more details at https://www.facebook.com/AISDEVIO
 */
 #include "AIS_SIM7020E_API.h"
-String address    = "656b17ba61d74c5088ac7748d4eb9c8a.s2.eu.hivemq.cloud";               //Your IPaddress or mqtt server url
-String serverPort = "8883";               //Your server port
-String clientID   = "";               //Your client id < 120 characters
+String address    = "mqtt.fluux.io";               //Your IPaddress or mqtt server url
+String serverPort = "1883";               //Your server port
+String clientID   = "12345";               //Your client id < 120 characters
 String topic      = "tan/nbiots";               //Your topic     < 128 characters
 String payload    = "HelloWorld!";    //Your payload   < 500 characters
-String username   = "tanya";               //username for mqtt server, username <= 100 characters
-String password   = "tantantan";               //password for mqtt server, password <= 100 characters 
+String username   = "";               //username for mqtt server, username <= 100 characters
+String password   = "";               //password for mqtt server, password <= 100 characters 
 unsigned int subQoS       = 0;
 unsigned int pubQoS       = 0;
 unsigned int pubRetained  = 0;

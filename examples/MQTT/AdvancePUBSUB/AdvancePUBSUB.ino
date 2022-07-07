@@ -10,13 +10,13 @@
     If you have any questions, please see more details at https://www.facebook.com/AISDEVIO
 */
 #include "AIS_SIM7020E_API.h"
-String address    = "broker.hivemq.com";               //Your IPaddress or mqtt server url
+String address    = "mqtt.fluux.io";                //Your IPaddress or mqtt server url
 String serverPort = "1883";               //Your server port
-String clientID   = "tan_1234";               //Your client id < 120 characters
-String topic      = "ais_nbiot";               //Your topic     < 128 characters
-String payload    = "HelloWorld!";    //Your payload   < 500 characters
-String username   = "";               //username for mqtt server, username <= 100 characters
-String password   = "";               //password for mqtt server, password <= 100 characters 
+String clientID   = "";               //Your client id < 120 characters
+String topic      = "tan/nbiots";               //Your topic     < 128 characters
+String payload    = "Hello From AIS NBiots";    //Your payload   < 500 characters
+String username   = "tanya";               //username for mqtt server, username <= 100 characters
+String password   = "tantantan";               //password for mqtt server, password <= 100 characters 
 int keepalive     = 60;               //keepalive time (second)
 int version       = 3;                //MQTT veresion 3(3.1), 4(3.1.1)
 int cleansession  = 1;                //cleanssion : 0, 1
