@@ -1,5 +1,5 @@
 const net = require('net')
-const conf = require('config')
+const conf = require('./config/config')
 
 const {
     log
@@ -57,7 +57,7 @@ server.on('connection', sock => {
 
 
 // server.listen(conf.port, conf.serverHost, () => {
-server.listen(conf.port, conf.serverHost, () => {
+server.listen(conf.port, conf.listenHost, () => {
 	const address = server.address()
 	const port = address.port
     const family = address.family
