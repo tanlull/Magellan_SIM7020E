@@ -2,7 +2,7 @@ const net = require('net')
 const conf = require('./config/config')
 
 const client = new net.Socket()
-const host = '127.0.0.1'
+const host = conf.host
 
 client.connect(conf.port, host, function() {
     console.log('Connected')
