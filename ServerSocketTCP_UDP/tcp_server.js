@@ -1,5 +1,5 @@
 const net = require('net')
-const conf = require('./config/config')
+const conf = require('config')
 
 const {
     log

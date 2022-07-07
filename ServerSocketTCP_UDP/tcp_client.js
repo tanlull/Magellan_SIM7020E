@@ -1,8 +1,8 @@
 const net = require('net')
-const conf = require('./config/config')
+const conf = require('config')
 
 const client = new net.Socket()
-const host = conf.host
+const host = conf.serverHost
 
 client.connect(conf.port, host, function() {
     console.log('Connected')
